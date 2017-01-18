@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch API challenge</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="above">
+</div>
+<div id="viewer" class="bordered">
+ 
+<div id="titleBar" class="bordered">
+  
+  </div>
+  <hr>
+  <div id="filter">
+    <input type="radio" name="filter" value="all" checked> All
+    <input type="radio" name="filter" value="online"> Online
+    <button onclick="getNames()"> Refresh </button> <div class="floater"> *right-click to view links in Chrome </div>
+  </div>
+  <hr>
+ <div id="main"> 
+  <div id="nameList" class="online streams">
+    
+  </div>
+   
+   
+   <div id="offlineNames" class="offline streams">
+   </div>
+ 
+  </div>
+  
+</div>
+<div id="underneath">
+  
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

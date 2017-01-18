@@ -1,0 +1,90 @@
+button{
+  margin-left: 2%;
+}
+
+li:hover{
+  color: rgba(170,20,80,1);
+}
+
+
+#viewer{
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  display: block;
+  margin: 20px auto; 
+  position: fixed;
+  padding: 1%;
+  padding-bottom: 4%;
+}
+
+#titleBar{
+  width: 98%;
+  height: 120px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twitch_logo.svg/1280px-Twitch_logo.svg.png");
+  background-size: contain;
+  background-repeat: x-repeat;
+  background-position: 45%;
+  
+}
+body{
+  background-color: silver;
+}
+
+.bordered{
+  border: solid purple 2px;
+}
+
+.offline li{
+  color: grey;
+  margin-left: 3%;
+ 
+}
+
+.noDisplay{
+  display: none;
+}
+
+.floater{
+  float: right;
+}
+
+
+li{
+  border-bottom: dotted silver 1px;
+  list-style: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 85%;
+  min-height: 30px;
+}
+
+.online a{
+  color: white;
+  background-color: rgba(20,20,20,.8);
+  padding: 1%;
+  margin: 2%;
+  width: 50%;
+}
+
+.offline a{
+  color: grey;
+}
+
+.streams{
+  padding: 0%;
+  margin-left: 1%;
+}
+.streams li{
+  padding: .5%;
+}
+
+@media only screen and (min-width: 900px){
+  .streams{
+    font-size: 150%;
+  }
+  #viewer{
+    width: 70%;
+  }
+  
+}
